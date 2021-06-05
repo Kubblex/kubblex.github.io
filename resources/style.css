@@ -1,0 +1,210 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+html {
+  background-color: PowderBlue;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: AliceBlue;
+  align-items: center;
+  margin: 0;
+  position: fixed;
+}
+
+h3 {
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.35rem;
+
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ol {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: maroon;
+  font-size: inherit;
+}
+
+a ::after {
+  color: maroon;
+}
+
+iframe {
+  margin: auto;
+}
+
+
+nav h2 {
+  background-color: inherit;
+  font-size: 2rem;
+  padding-left: 3rem;
+  font-family: "Oswald", sans-serif;
+}
+
+nav a {
+  color: black;
+}
+
+
+
+.tbar {
+  display: block;
+  background-color: inherit;
+}
+
+.tbar ul {
+  list-style: none;
+  background-color: inherit;
+}
+
+.tbar li {
+  text-decoration: none;
+  display: inline-block;
+  background-color: inherit;
+  padding-right: 1rem;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    height: 140px;
+  }
+  .tbar li {
+    line-height: 2rem;
+  }
+}
+
+
+
+
+.bodcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+
+}
+
+.leftcontainer {
+  width: 45%;
+}
+
+ h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+
+}
+
+.leftcontainer h3 {
+  text-align: center;
+}
+
+.rightcontainer {
+  max-width: 45%;
+
+}
+
+ img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.rightcontainer h3 {
+  text-align: center;
+}
+
+.bodcontent2 {
+  background-color: AliceBlue;
+  width: 80%;
+  margin:  auto;
+  padding: 1rem;
+}
+
+.bodcontent2 h1 {
+  background-color: inherit;
+}
+
+.bodcontent2 h3 {
+  text-align: center;
+  background-color: inherit;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.bodcontent2 p {
+  text-align: justify;
+  background-color: inherit;
+  width: 90%;
+  margin: auto;
+}
+
+.bodcontent2 .buttoncontainer {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.bodcontent2 ol {
+  width: 90%;
+  margin: auto;
+}
+
+.bodcontent2 li {
+  line-height: 1.45rem;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  padding: 1.5rem;
+  background-color: rgb(203, 184, 255);
+  border-radius:  10px;
+  margin: 1rem;
+  color: black;
+}
+
+.undernav {
+  padding-top: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .undernav {
+    padding-top: 9rem;
+  }
+}
+
+.vidcontainer {
+  margin: 3rem 0;
+  display: flex;
+}
+
+
+mark {
+background-color: rgb(203, 184, 255);
+}
