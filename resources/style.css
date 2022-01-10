@@ -19,8 +19,10 @@ nav {
   justify-content: space-between;
   background-color: AliceBlue;
   align-items: center;
-  margin: 0;
+  margin-top: 8em;
   position: fixed;
+  left: 0;
+  top: 0;
 }
 
 h3 {
@@ -70,7 +72,24 @@ nav a {
 .tbar {
   display: block;
   background-color: inherit;
+
 }
+
+.topbar {
+  background-color: DarkBlue;
+  padding: 1em 2em;
+  margin-top: 0;
+  margin-bottom: .5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.topbar p {
+  color: white;
+}
+
+
 
 .tbar ul {
   list-style: none;
@@ -88,6 +107,7 @@ nav a {
 @media only screen and (max-width: 600px) {
   nav {
     height: 140px;
+    margin-top: 13em;
   }
   .tbar li {
     line-height: 2rem;
@@ -190,7 +210,7 @@ nav a {
 }
 
 .undernav {
-  padding-top: 6rem;
+  padding-top: 14rem;
 }
 
 @media only screen and (max-width: 600px) {
